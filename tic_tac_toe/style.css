@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("D:/All Data/Sakshi/internship_task/tic_tac_toe/banner1.jpg");
+}
+
+.heading{
+   
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #ffffff;
+    text-shadow: #000000 1px;
+}
+
+.heading h1{
+    background: #000000;
+    border: 2px solid #ffffff;
+    width: 75%;
+    margin: auto;
+}
+
+button{
+    text-align: center;
+    margin-left: auto;
+}
+
+button{
+    text-align: center;
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px;
+    width: 20%;
+    margin: 30px;
+    margin-top: 70px;
+    font-weight: bold; 
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-left: 340px;
+}
+
+.boxes {
+    width: 80px;
+    height: 80px;
+    margin-top: 35px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.boxes:hover {
+    background-color: #eee;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+/**button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}**/
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
